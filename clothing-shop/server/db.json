@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "153c8c05-cfb3-4a5b-a561-c74f3a1f5c79",
+      "name": "Tshirt",
+      "price": "200",
+      "image": "https://i.pinimg.com/236x/2c/d7/6b/2cd76bd2f04db9f28a8b6d184c09585b.jpg"
+    },
+    {
+      "id": "31a6a61e-2fc2-4a56-b33b-4b971c7d8730",
+      "name": "Tshirt2",
+      "price": "300",
+      "image": "https://i.pinimg.com/564x/99/d9/fc/99d9fc1b1831b097d91709b2f6e5dadf.jpg"
+    },
+    {
+      "id": "934ffaef-a323-48aa-aa42-d91364f0c6f2",
+      "name": "Shirt",
+      "price": "300",
+      "image": "https://image.winudf.com/v2/image1/Y29tLmFuZGlhcHBzLlN0cmVldEZhc2hpb25NZW5Td2FnU3R5bGVfc2NyZWVuXzNfMTU3MDQ1OTM1MV8wNTk/screen-6.jpg?fakeurl=1&type=.webp"
+    }
+  ]
+}

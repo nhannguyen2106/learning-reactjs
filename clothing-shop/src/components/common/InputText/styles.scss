@@ -1,0 +1,18 @@
+.field {
+  padding: 10px 0;
+  display: flex;
+
+  .field__label {
+    text-transform: capitalize;
+    width: 150px;
+  }
+
+  .field__input {
+    width: 500px;
+    // height: 50px;
+    font-size: 24px;
+    border: 2px solid black;
+    margin-right: 15px;
+    padding-left: 10px;
+  }
+}

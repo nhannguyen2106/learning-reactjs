@@ -1,0 +1,171 @@
+.container {
+  height: 100vh;
+  /* display: flex; */
+  /* position: relative; */
+  /* padding-top: 70px; */
+}
+
+.main {
+  display: flex;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+body {
+  width: 80vw;
+  margin: 10vh auto;
+  border: 2px solid black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #675bf1;
+  height: 80px;
+  padding: 8px;
+}
+
+.createTaskBtn a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 0 10px 10px 0;
+}
+
+.search-area {
+  display: flex;
+  gap: 10px;
+}
+
+.search-area input {
+  width: 500px;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid #fff;
+  padding: 10px;
+  background-color: #675bf1;
+}
+
+.searchBtn {
+  background-color: #675bf1;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 0 10px 10px 0;
+}
+
+.main {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #f88f14;
+}
+
+.sidebar li {
+  font-size: 28px;
+  color: #fff;
+  height: 100%;
+  border-bottom: 2px solid #fff;
+}
+
+.list-items {
+  text-align: center;
+}
+
+.todo {
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  gap: 20px 4%;
+  padding: 20px;
+}
+
+.todo-cards {
+  border: 2px solid #675bf1;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.todo-info {
+  border-bottom: 2px solid #675bf1;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.todo-info .New {
+  color: #04be00;
+  font-weight: 700;
+}
+
+.todo-info .Doing {
+  color: #f88f14;
+  font-weight: 700;
+}
+
+.todo-info .Done {
+  color: #675bf1;
+  font-weight: 700;
+}
+
+.statusBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.statusBtn select {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #675bf1;
+  border-radius: 15px;
+  width: 80%;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+
+.fa-angle-down {
+  font-size: 24px;
+  color: #675bf1;
+}
+
+.pagination-area {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: #675bf1;
+  float: left;
+  padding: 2px 16px;
+  text-decoration: none;
+  border: 1px solid #675bf1;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.arrow-icon {
+  width: 10px;
+  color: #675bf1;
+} */

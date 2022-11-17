@@ -1,0 +1,35 @@
+.pagination {
+  // position: absolute;
+  bottom: 30px;
+  display: flex;
+  width: 150px;
+  height: 30px;
+  border: 1px solid var(--primary);
+  border-radius: 10px;
+  margin: auto;
+  // left: calc(50% + 90px);
+  // transform: translateX(-50%);
+
+  &__page {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--primary);
+    border-right: 1px solid var(--primary);
+    padding-bottom: 3px;
+
+    &:first-child {
+      font-size: 30px;
+      padding-bottom: 8px;
+    }
+
+    &:last-child {
+      font-size: 30px;
+      border-right: none;
+    }
+  }
+}

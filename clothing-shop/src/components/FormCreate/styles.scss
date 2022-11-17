@@ -1,0 +1,26 @@
+h2 {
+  text-align: center;
+  color: #2746b6;
+}
+
+.form {
+  width: 50%;
+  margin: auto;
+
+  &__item p {
+    margin: 0;
+    margin-left: 150px;
+    color: red;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  &__btn button:last-child {
+    background-color: #d3d3d6;
+    color: black;
+  }
+}

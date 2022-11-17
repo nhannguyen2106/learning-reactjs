@@ -1,0 +1,88 @@
+import { STATUS } from "../constants";
+
+export const initData = [
+  {
+    id: 1,
+    title: "Task 1",
+    author: "Author 1",
+    status: STATUS.NEW,
+    description: "This is a task, This is a task, This is a task, This...",
+  },
+  {
+    id: 2,
+    title: "Task 2",
+    author: "Author 1",
+    status: STATUS.NEW,
+    description: "This is a task, This is a task, This is a task, This...",
+  },
+  {
+    id: 3,
+    title: "Task 3",
+    author: "Author 1",
+    status: STATUS.NEW,
+    description: "This is a task, This is a task, This is a task, This...",
+  },
+  {
+    id: 4,
+    title: "Task 4",
+    author: "Author 1",
+    status: STATUS.NEW,
+    description: "This is a task, This is a task, This is a task, This...",
+  },
+  {
+    id: 5,
+    title: "Task 5",
+    author: "Author 1",
+    status: STATUS.NEW,
+    description: "This is a task, This is a task, This is a task, This...",
+  },
+  {
+    id: 6,
+    title: "Task 6",
+    author: "Author 1",
+    status: STATUS.NEW,
+    description: "This is a task, This is a task, This is a task, This...",
+  },
+  {
+    id: 7,
+    title: "Task 7",
+    author: "Author 1",
+    status: STATUS.NEW,
+    description: "This is a task, This is a task, This is a task, This...",
+  },
+  {
+    id: 8,
+    title: "Task 8",
+    author: "Author 1",
+    status: STATUS.NEW,
+    description: "This is a task, This is a task, This is a task, This...",
+  },
+  {
+    id: 9,
+    title: "Task 9",
+    author: "Author 1",
+    status: STATUS.NEW,
+    description: "This is a task, This is a task, This is a task, This...",
+  },
+  {
+    id: 10,
+    title: "Task 10",
+    author: "Author 1",
+    status: STATUS.NEW,
+    description: "This is a task, This is a task, This is a task, This...",
+  },
+  {
+    id: 11,
+    title: "Task 11",
+    author: "Author 1",
+    status: STATUS.NEW,
+    description: "This is a task, This is a task, This is a task, This...",
+  },
+  {
+    id: 12,
+    title: "Task 12",
+    author: "Author 1",
+    status: STATUS.NEW,
+    description: "This is a task, This is a task, This is a task, This...",
+  },
+];
