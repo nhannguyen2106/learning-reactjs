@@ -41,6 +41,7 @@ const MainContent = (props) => {
           <Collapse in={open}>
             <Alert
               icon={false}
+              style={{ width: "20%", margin: "auto" }}
               action={
                 <IconButton
                   aria-label="close"

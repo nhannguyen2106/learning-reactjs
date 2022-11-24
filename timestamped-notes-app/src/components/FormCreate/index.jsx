@@ -25,7 +25,6 @@ const FormCreate = ({ setNoteValues }) => {
 
     formState: { errors, touchedFields },
   } = useForm({ mode: "all" });
-  // { mode: "all", reValidateMode: "onBlur" }
 
   // const handleChangeField = (e) => {
   // setFormValues({
@@ -41,6 +40,7 @@ const FormCreate = ({ setNoteValues }) => {
   //   }
   // }
   // };
+  const notes = [];
 
   const onHandleSubmit = async (values, e) => {
     console.log(values);
@@ -56,6 +56,8 @@ const FormCreate = ({ setNoteValues }) => {
       console.log(response.status);
     }
     e.target.reset();
+
+    localStorage.setItem("notes", values);
 
     // setFormValues(defaultValues);
   };
