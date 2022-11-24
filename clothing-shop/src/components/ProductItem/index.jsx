@@ -7,7 +7,8 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea, CardActions } from "@mui/material";
 import Button from "../common/Button";
 
-const ProductItem = ({ image, name, price }) => {
+const ProductItem = ({ item }) => {
+  const { id, name, price, image } = item;
   return (
     <Card sx={{ width: 345 }}>
       <CardActionArea>

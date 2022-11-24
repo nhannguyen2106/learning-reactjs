@@ -34,10 +34,11 @@ const ProductsList = (props) => {
       <div className="products__list">
         {productsList.map((item) => (
           <ProductItem
-            id={item.id}
-            image={item.image}
-            name={item.name}
-            price={item.price}
+            item={item}
+            // id={item.id}
+            // image={item.image}
+            // name={item.name}
+            // price={item.price}
           />
         ))}
       </div>

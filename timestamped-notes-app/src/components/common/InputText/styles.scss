@@ -1,0 +1,28 @@
+.field {
+  padding: 10px 0;
+  display: flex;
+
+  &__inputArea {
+    display: block;
+
+    p {
+      color: red;
+      margin: 0;
+    }
+  }
+
+  &__label {
+    width: 20%;
+    // flex: 1;
+  }
+
+  &__input {
+    // flex: 2;
+    width: 100%;
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 15px;
+    padding-left: 10px;
+  }
+}
